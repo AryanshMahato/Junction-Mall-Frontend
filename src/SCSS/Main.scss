@@ -1,61 +1,81 @@
-$primary-color: #E74292;
-$primary-light: #EAF0F1;
-$primary-dark: #2C3335;
-$primary-blue: #3498DB;
+@import url('https://fonts.googleapis.com/css?family=Lilita+One|Roboto&display=swap');
+
+$primary-color: #e74292;
+$primary-light: #eaf0f1;
+$primary-dark: #2c3335;
+$primary-blue: #3498db;
 $primary-brown: #707070;
-$dark-light: #DAE0E2;
+$dark-light: #dae0e2;
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .main-header {
-    display: flex;
-    background: $primary-light;
-    flex-flow: column;
-    align-items: center;
-    padding: 1rem;
-    padding-bottom: 0.5rem;
+	display: flex;
+	background: $primary-light;
+	flex-flow: column;
+	align-items: center;
+	padding: 1rem;
+	padding-bottom: 0.5rem;
 
-
-    hr {
-        width: 100vw;
-        color: $dark-light;
-        height: 1px;
-    }
+	hr {
+		width: 100vw;
+		color: $dark-light;
+		height: 1px;
+	}
 }
 
 .logo {
-    margin-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
 .time-remaining-for-sale {
-    display: flex;
-    margin-top: 0.5rem;
-    margin-right: 1rem;
+	display: flex;
+	margin-top: 0.5rem;
+	margin-right: 1rem;
 
-    img {
-        margin-right: 2rem;
-    }
+	img {
+		margin-right: 2rem;
+	}
 }
 
 .time-remaining__annotation {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-between;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-between;
 
-    span:first-of-type {
-        font-family: sans-serif;
-        font-size: 1rem;
-        color: $primary-color;
-    }
+	span:first-of-type {
+		font-family: sans-serif;
+		font-size: 1rem;
+		color: $primary-color;
+	}
 }
 
 .time-remaining {
-    font-size: 2rem;
-    color: $primary-color;
-    font-weight: bold;
+	font-size: 2rem;
+	color: $primary-color;
+	font-weight: bold;
+}
+
+.footer-secondary {
+	position: fixed;
+	width: 100%;
+	font-family: 'Lilita One', cursive;
+	font-size: 2rem;
+	background: $primary-blue;
+	height: 3rem;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	a {
+		vertical-align: middle;
+		text-decoration: none;
+		color: #fff;
+	}
 }

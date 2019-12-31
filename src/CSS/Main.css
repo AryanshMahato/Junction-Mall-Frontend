@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Lilita+One|Roboto&display=swap");
 * { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-.main-header { display: -webkit-box; display: -ms-flexbox; display: flex; background: #EAF0F1; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: column; flex-flow: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 1rem; padding-bottom: 0.5rem; }
+.main-header { display: -webkit-box; display: -ms-flexbox; display: flex; background: #eaf0f1; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: column; flex-flow: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 1rem; padding-bottom: 0.5rem; }
 
-.main-header hr { width: 100vw; color: #DAE0E2; height: 1px; }
+.main-header hr { width: 100vw; color: #dae0e2; height: 1px; }
 
 .logo { margin-bottom: 0.5rem; }
 
@@ -12,6 +13,10 @@
 
 .time-remaining__annotation { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: column; flex-flow: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
-.time-remaining__annotation span:first-of-type { font-family: sans-serif; font-size: 1rem; color: #E74292; }
+.time-remaining__annotation span:first-of-type { font-family: sans-serif; font-size: 1rem; color: #e74292; }
 
-.time-remaining { font-size: 2rem; color: #E74292; font-weight: bold; }
+.time-remaining { font-size: 2rem; color: #e74292; font-weight: bold; }
+
+.footer-secondary { position: fixed; width: 100%; font-family: 'Lilita One', cursive; font-size: 2rem; background: #3498db; height: 3rem; bottom: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.footer-secondary a { vertical-align: middle; text-decoration: none; color: #fff; }
