@@ -61,22 +61,29 @@ $dark-light: #dae0e2;
 	font-weight: bold;
 }
 
-.footer-secondary {
-	position: fixed;
-	width: 100%;
+.locate-us {
 	font-family: 'Lilita One', cursive;
 	font-size: 2rem;
 	background: $primary-blue;
-	height: 3rem;
-	bottom: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
+	padding: 0.5rem 1rem;
+	border-radius: 32px;
 	a {
 		vertical-align: middle;
 		text-decoration: none;
 		color: #fff;
+	}
+	transition: 0.25s;
+	display: none;
+}
+
+.locate-us:hover {
+	background: #fff;
+	cursor: pointer;
+	a {
+		color: $primary-blue;
 	}
 }
 
@@ -92,7 +99,17 @@ $dark-light: #dae0e2;
 		}
 	}
 
+	.logo {
+		flex: 1;
+		margin-bottom: 0;
+	}
+
 	.time-remaining-for-sale {
 		margin: 0;
+		margin-right: 5rem;
+	}
+
+	.locate-us {
+		display: flex;
 	}
 }

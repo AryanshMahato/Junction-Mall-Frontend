@@ -17,6 +17,9 @@ export default function Header() {
 					<span className='time-remaining'>20:15:32</span>
 				</div>
 			</div>
+			<div className='locate-us'>
+				<a href='#'>Locate Us</a>
+			</div>
 		</div>
 	);
 }
