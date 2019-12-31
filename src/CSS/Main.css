@@ -20,3 +20,7 @@
 .footer-secondary { position: fixed; width: 100%; font-family: 'Lilita One', cursive; font-size: 2rem; background: #3498db; height: 3rem; bottom: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .footer-secondary a { vertical-align: middle; text-decoration: none; color: #fff; }
+
+@media (min-width: 40rem) { .main-header { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row; flex-flow: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 1rem; }
+  .main-header hr { display: none; }
+  .time-remaining-for-sale { margin: 0; } }

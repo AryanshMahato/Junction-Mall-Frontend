@@ -79,3 +79,20 @@ $dark-light: #dae0e2;
 		color: #fff;
 	}
 }
+
+@media (min-width: 40rem) {
+	.main-header {
+		flex-flow: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1rem;
+
+		hr {
+			display: none;
+		}
+	}
+
+	.time-remaining-for-sale {
+		margin: 0;
+	}
+}
