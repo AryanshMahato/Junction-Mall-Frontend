@@ -97,8 +97,37 @@ $dark-light: #dae0e2;
 .hero-box {
     height: 100vh;
     padding-top: 130px;
-    background: #000;
 
+    img {
+        object-fit: cover;
+        width: 100vw;
+        height: 100%;
+    }
+}
+
+#hero-box__left-arrow {
+    position: absolute;
+    top: 53%;
+    left: 2%;
+
+    svg {
+        width: 4rem;
+        height: 4rem;
+        color: $dark-light;
+    }
+
+}
+
+#hero-box__right-arrow {
+    position: absolute;
+    top: 53%;
+    right: 2%;
+
+    svg {
+        width: 4rem;
+        height: 4rem;
+        color: $dark-light;
+    }
 }
 
 @media (min-width: 40rem) {
@@ -127,6 +156,10 @@ $dark-light: #dae0e2;
     .locate-us {
         display: flex;
         margin-right: 5rem;
+    }
+
+    .hero-box {
+        padding-top: 80px;
     }
 
 
