@@ -8,108 +8,143 @@ $primary-brown: #707070;
 $dark-light: #dae0e2;
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .main-header {
-	display: flex;
-	background: $primary-light;
-	flex-flow: column;
-	align-items: center;
-	padding: 1rem;
-	padding-bottom: 0.5rem;
+    display: flex;
+    background: $primary-light;
+    flex-flow: column;
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
 
-	hr {
-		width: 100vw;
-		color: $dark-light;
-		height: 1px;
-	}
+    hr {
+        width: 100vw;
+        color: $dark-light;
+        height: 1px;
+    }
 }
 
 .logo {
-	margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .time-remaining-for-sale {
-	display: flex;
-	margin-top: 0.5rem;
-	margin-right: 1rem;
+    display: flex;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
 
-	img {
-		margin-right: 2rem;
-	}
+    img {
+        margin-right: 2rem;
+    }
 }
 
 .time-remaining__annotation {
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: space-between;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
 
-	span:first-of-type {
-		font-family: sans-serif;
-		font-size: 1rem;
-		color: $primary-color;
-	}
+    span:first-of-type {
+        font-family: sans-serif;
+        font-size: 1rem;
+        color: $primary-color;
+    }
 }
 
 .time-remaining {
-	font-size: 2rem;
-	color: $primary-color;
-	font-weight: bold;
+    font-size: 2rem;
+    color: $primary-color;
+    font-weight: bold;
 }
 
 .locate-us {
-	font-family: 'Lilita One', cursive;
-	font-size: 2rem;
-	background: $primary-blue;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 0.5rem 1rem;
-	border-radius: 32px;
-	a {
-		vertical-align: middle;
-		text-decoration: none;
-		color: #fff;
-	}
-	transition: 0.25s;
-	display: none;
+    font-family: 'Lilita One', cursive;
+    font-size: 2rem;
+    background: $primary-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 32px;
+
+    a {
+        vertical-align: middle;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    transition: 0.25s;
+    display: none;
 }
 
 .locate-us:hover {
-	background: #fff;
-	cursor: pointer;
-	a {
-		color: $primary-blue;
-	}
+    background: #fff;
+    cursor: pointer;
+
+    a {
+        color: $primary-blue;
+    }
 }
 
-@media (min-width: 40rem) {
-	.main-header {
-		flex-flow: row;
-		justify-content: space-between;
-		align-items: center;
-		padding: 1rem;
+@media (min-width: 55rem) {
+    .main-header {
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
 
-		hr {
-			display: none;
-		}
-	}
+        hr {
+            display: none;
+        }
+    }
 
-	.logo {
-		flex: 1;
-		margin-bottom: 0;
-	}
+    .logo {
+        flex: 1;
+        margin-bottom: 0;
+    }
 
-	.time-remaining-for-sale {
-		margin: 0;
-		margin-right: 5rem;
-	}
+    .time-remaining-for-sale {
+        margin: 0;
+        margin-right: 5rem;
+    }
 
-	.locate-us {
-		display: flex;
-	}
+    .locate-us {
+        display: flex;
+        margin-right: 5rem;
+    }
+}
+
+@media (min-width: 40rem) and (max-width: 55rem) {
+    .main-header {
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+
+        hr {
+            display: none;
+        }
+    }
+
+    .logo {
+        flex: 1;
+        margin-bottom: 0;
+    }
+
+    .time-remaining-for-sale {
+        margin: 0;
+        margin-right: 2rem;
+
+        img {
+            margin-right: 1rem;
+        }
+    }
+
+    .locate-us {
+        display: flex;
+    }
 }
