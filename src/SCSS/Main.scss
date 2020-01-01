@@ -96,9 +96,11 @@ $dark-light: #dae0e2;
 
 .hero-box {
     height: 100vh;
+    padding-top: 130px;
+
 }
 
-@media (min-width: 60rem) {
+@media (min-width: 40rem) {
     .main-header {
         flex-flow: row;
         justify-content: space-between;
@@ -125,35 +127,16 @@ $dark-light: #dae0e2;
         display: flex;
         margin-right: 5rem;
     }
+
+
 }
 
 @media (min-width: 40rem) and (max-width: 60rem) {
-    .main-header {
-        flex-flow: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-
-        hr {
-            display: none;
-        }
-    }
-
-    .logo {
-        flex: 1;
-        margin-bottom: 0;
-    }
-
     .time-remaining-for-sale {
-        margin: 0;
         margin-right: 2rem;
 
         img {
             margin-right: 1rem;
         }
-    }
-
-    .locate-us {
-        display: flex;
     }
 }
