@@ -7,6 +7,7 @@ $primary-blue: #3498db;
 $primary-brown: #707070;
 $dark-light: #dae0e2;
 
+
 * {
     margin: 0;
     padding: 0;
@@ -90,7 +91,11 @@ $dark-light: #dae0e2;
     }
 }
 
-@media (min-width: 55rem) {
+.hero-box {
+    background: #000;
+}
+
+@media (min-width: 60rem) {
     .main-header {
         flex-flow: row;
         justify-content: space-between;
@@ -105,6 +110,7 @@ $dark-light: #dae0e2;
     .logo {
         flex: 1;
         margin-bottom: 0;
+        margin-left: 5rem;
     }
 
     .time-remaining-for-sale {
@@ -118,7 +124,7 @@ $dark-light: #dae0e2;
     }
 }
 
-@media (min-width: 40rem) and (max-width: 55rem) {
+@media (min-width: 40rem) and (max-width: 60rem) {
     .main-header {
         flex-flow: row;
         justify-content: space-between;
