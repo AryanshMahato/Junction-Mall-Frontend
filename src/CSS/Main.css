@@ -29,11 +29,11 @@
 
 .hero-box img { -o-object-fit: cover; object-fit: cover; width: 100vw; height: 100%; }
 
-#hero-box__left-arrow { position: absolute; top: 53%; left: 2%; }
+#hero-box__left-arrow { position: absolute; top: 53%; left: 2%; cursor: pointer; }
 
 #hero-box__left-arrow svg { width: 4rem; height: 4rem; color: #dae0e2; }
 
-#hero-box__right-arrow { position: absolute; top: 53%; right: 2%; }
+#hero-box__right-arrow { position: absolute; top: 53%; right: 2%; cursor: pointer; }
 
 #hero-box__right-arrow svg { width: 4rem; height: 4rem; color: #dae0e2; }
 
