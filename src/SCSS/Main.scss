@@ -130,6 +130,27 @@ $dark-light: #dae0e2;
     }
 }
 
+.locate-us__mobile {
+    font-family: 'Lilita One', cursive;
+    font-size: 2rem;
+    background: $primary-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+
+    a {
+        vertical-align: middle;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    transition: 0.25s;
+}
+
 @media (min-width: 40rem) {
     .main-header {
         flex-flow: row;
@@ -156,6 +177,10 @@ $dark-light: #dae0e2;
     .locate-us {
         display: flex;
         margin-right: 5rem;
+    }
+
+    .locate-us__mobile {
+        display: none;
     }
 
     .hero-box {
