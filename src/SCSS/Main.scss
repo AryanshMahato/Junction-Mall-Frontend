@@ -14,6 +14,7 @@ $dark-light: #dae0e2;
     box-sizing: border-box;
 }
 
+
 .main-header {
     display: flex;
     background: $primary-light;
@@ -21,6 +22,8 @@ $dark-light: #dae0e2;
     align-items: center;
     padding: 1rem;
     padding-bottom: 0.5rem;
+    position: fixed;
+    width: 100vw;
 
     hr {
         width: 100vw;
@@ -92,7 +95,7 @@ $dark-light: #dae0e2;
 }
 
 .hero-box {
-    background: #000;
+    height: 100vh;
 }
 
 @media (min-width: 60rem) {
