@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lilita+One|Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lilita+One|Roboto&display=swap");
 
 $primary-color: #e74292;
 $primary-light: #eaf0f1;
@@ -7,205 +7,238 @@ $primary-blue: #3498db;
 $primary-brown: #707070;
 $dark-light: #dae0e2;
 
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-
 .main-header {
-    display: flex;
-    background: $primary-light;
-    flex-flow: column;
-    align-items: center;
-    padding: 1rem;
-    padding-bottom: 0.5rem;
-    position: fixed;
-    width: 100vw;
+	display: flex;
+	background: $primary-light;
+	flex-flow: column;
+	align-items: center;
+	padding: 1rem;
+	padding-bottom: 0.5rem;
+	position: fixed;
+	width: 100vw;
 
-    hr {
-        width: 100vw;
-        color: $dark-light;
-        height: 1px;
-    }
+	hr {
+		width: 100vw;
+		color: $dark-light;
+		height: 1px;
+	}
 }
 
 .logo {
-    margin-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
 .time-remaining-for-sale {
-    display: flex;
-    margin-top: 0.5rem;
-    margin-right: 1rem;
+	display: flex;
+	margin-top: 0.5rem;
+	margin-right: 1rem;
 
-    img {
-        margin-right: 2rem;
-    }
+	img {
+		margin-right: 2rem;
+	}
 }
 
 .time-remaining__annotation {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-between;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-between;
 
-    span:first-of-type {
-        font-family: sans-serif;
-        font-size: 1rem;
-        color: $primary-color;
-    }
+	span:first-of-type {
+		font-family: sans-serif;
+		font-size: 1rem;
+		color: $primary-color;
+	}
 }
 
 .time-remaining {
-    font-size: 2rem;
-    color: $primary-color;
-    font-weight: bold;
+	font-size: 2rem;
+	color: $primary-color;
+	font-weight: bold;
 }
 
 .locate-us {
-    font-family: 'Lilita One', cursive;
-    font-size: 2rem;
-    background: $primary-blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    border-radius: 32px;
+	font-family: "Lilita One", cursive;
+	font-size: 2rem;
+	background: $primary-blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	border-radius: 32px;
 
-    a {
-        vertical-align: middle;
-        text-decoration: none;
-        color: #fff;
-    }
+	a {
+		vertical-align: middle;
+		text-decoration: none;
+		color: #fff;
+	}
 
-    transition: 0.25s;
-    display: none;
+	transition: 0.25s;
+	display: none;
 }
 
 .locate-us:hover {
-    background: #fff;
-    cursor: pointer;
+	background: #fff;
+	cursor: pointer;
 
-    a {
-        color: $primary-blue;
-    }
+	a {
+		color: $primary-blue;
+	}
 }
 
 .hero-box {
-    height: 100vh;
-    padding-top: 130px;
+	height: 100vh;
+	padding-top: 130px;
 
-    img {
-        object-fit: cover;
-        width: 100vw;
-        height: 100%;
-    }
+	img {
+		object-fit: cover;
+		width: 100vw;
+		max-width: 100%;
+		height: 100%;
+	}
 }
 
 #hero-box__left-arrow {
-    position: absolute;
-    top: 53%;
-    left: 2%;
+	position: absolute;
+	top: 53%;
+	left: 2%;
 
-    svg {
-        width: 4rem;
-        height: 4rem;
-        color: $dark-light;
-    }
-    cursor: pointer;
-
+	svg {
+		width: 4rem;
+		height: 4rem;
+		color: $dark-light;
+	}
+	cursor: pointer;
 }
 
 #hero-box__right-arrow {
-    position: absolute;
-    top: 53%;
-    right: 2%;
+	position: absolute;
+	top: 53%;
+	right: 2%;
 
-    svg {
-        width: 4rem;
-        height: 4rem;
-        color: $dark-light;
-    }
-    cursor: pointer;
+	svg {
+		width: 4rem;
+		height: 4rem;
+		color: $dark-light;
+	}
+	cursor: pointer;
 }
 
 .locate-us__mobile {
-    font-family: 'Lilita One', cursive;
-    font-size: 2rem;
-    background: $primary-blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    position: fixed;
-    width: 100vw;
-    bottom: 0;
+	font-family: "Lilita One", cursive;
+	font-size: 2rem;
+	background: $primary-blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	position: fixed;
+	width: 100vw;
+	bottom: 0;
 
-    a {
-        vertical-align: middle;
-        text-decoration: none;
-        color: #fff;
-    }
+	a {
+		vertical-align: middle;
+		text-decoration: none;
+		color: #fff;
+	}
 
-    transition: 0.25s;
+	transition: 0.25s;
+}
+
+.menu-lists {
+	display: flex;
+	flex-flow: column;
+}
+
+.menu-list-1,
+.menu-list-2 {
+	display: flex;
+	flex-flow: row;
+	vertical-align: middle;
+}
+
+.food,
+.shopping,
+.events,
+.entertainment {
+	text-align: center;
+	width: 50%;
+	background: $primary-dark;
+	color: #fff;
+	padding: 0.5rem;
+	height: 3.5rem;
+	font-size: 1.5rem;
+	font-family: "Roboto", sans-serif;
+	cursor: pointer;
+}
+
+.menu-lists .active {
+	background: $dark-light;
+	color: $primary-dark;
+}
+
+// For Development Only
+.development {
+	height: 80px;
 }
 
 @media (min-width: 40rem) {
-    .main-header {
-        flex-flow: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
+	.main-header {
+		flex-flow: row;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1rem;
 
-        hr {
-            display: none;
-        }
-    }
+		hr {
+			display: none;
+		}
+	}
 
-    .logo {
-        flex: 1;
-        margin-bottom: 0;
-        margin-left: 5rem;
-    }
+	.logo {
+		flex: 1;
+		margin-bottom: 0;
+		margin-left: 5rem;
+	}
 
-    .time-remaining-for-sale {
-        margin: 0;
-        margin-right: 5rem;
-    }
+	.time-remaining-for-sale {
+		margin: 0;
+		margin-right: 5rem;
+	}
 
-    .locate-us {
-        display: flex;
-        margin-right: 5rem;
-    }
+	.locate-us {
+		display: flex;
+		margin-right: 5rem;
+	}
 
-    .locate-us__mobile {
-        display: none;
-    }
+	.locate-us__mobile {
+		display: none;
+	}
 
-    .hero-box {
-        padding-top: 80px;
-    }
-
-
+	.hero-box {
+		padding-top: 80px;
+	}
 }
 
 @media (min-width: 40rem) and (max-width: 60rem) {
-    .logo {
-        margin-left: 0;
-    }
+	.logo {
+		margin-left: 0;
+	}
 
-    .time-remaining-for-sale {
-        margin-right: 2rem;
+	.time-remaining-for-sale {
+		margin-right: 2rem;
 
-        img {
-            margin-right: 1rem;
-        }
-    }
+		img {
+			margin-right: 1rem;
+		}
+	}
 
-    .locate-us {
-        margin-right: 0;
-    }
+	.locate-us {
+		margin-right: 0;
+	}
 }
