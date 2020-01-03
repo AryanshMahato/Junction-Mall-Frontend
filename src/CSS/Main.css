@@ -57,7 +57,10 @@
   .time-remaining-for-sale { margin: 0; margin-right: 5rem; }
   .locate-us { display: -webkit-box; display: -ms-flexbox; display: flex; margin-right: 5rem; }
   .locate-us__mobile { display: none; }
-  .hero-box { padding-top: 80px; } }
+  .hero-box { padding-top: 80px; }
+  .menu-lists { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row; flex-flow: row; }
+  .menu-list-1, .menu-list-2 { width: 50%; }
+  .food, .shopping, .events, .entertainment { width: 50%; } }
 
 @media (min-width: 40rem) and (max-width: 60rem) { .logo { margin-left: 0; }
   .time-remaining-for-sale { margin-right: 2rem; }
