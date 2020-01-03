@@ -6,6 +6,7 @@ import FooterMobile from './Components/Global/Footer-Mobile/FooterMobile';
 import MenuList from './Components/MenuList/MenuList';
 
 import './CSS/Main.css';
+import OfferSection from './Components/OfferSection/OfferSection';
 
 export default class App extends Component {
 	state = {
@@ -28,6 +29,7 @@ export default class App extends Component {
 					menuListClick={this.menuListClicked}
 					menuActive={this.state.menuActive}
 				/>
+				<OfferSection menuActive={this.state.menuActive} />
 				{/* For Development Only */}
 				<div className='development'></div>
 			</div>

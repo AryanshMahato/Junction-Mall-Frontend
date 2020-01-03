@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lilita+One|Roboto&display=swap");
 * { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-.main-header { display: -webkit-box; display: -ms-flexbox; display: flex; background: #eaf0f1; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: column; flex-flow: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 1rem; padding-bottom: 0.5rem; position: fixed; width: 100vw; }
+.main-header { display: -webkit-box; display: -ms-flexbox; display: flex; background: #eaf0f1; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: column; flex-flow: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 1rem; padding-bottom: 0.5rem; position: fixed; width: 100vw; z-index: 100; }
 
 .main-header hr { width: 100vw; color: #dae0e2; height: 1px; }
 
@@ -49,6 +49,12 @@
 
 .menu-lists .active { background: #dae0e2; color: #2c3335; }
 
+#offer-section { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: column; flex-flow: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-top: 3rem; }
+
+.offer-section__annotation { font-size: 1.8rem; font-family: 'Roboto', sans-serif; }
+
+.offer-section__annotation span { font-family: 'Lilita One', sans-serif; }
+
 .development { height: 80px; }
 
 @media (min-width: 40rem) { .main-header { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row; flex-flow: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 1rem; }
@@ -60,7 +66,8 @@
   .hero-box { padding-top: 80px; }
   .menu-lists { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row; flex-flow: row; }
   .menu-list-1, .menu-list-2 { width: 50%; }
-  .food, .shopping, .events, .entertainment { width: 50%; } }
+  .food, .shopping, .events, .entertainment { width: 50%; }
+  .offer-section__annotation { font-size: 3rem; } }
 
 @media (min-width: 40rem) and (max-width: 60rem) { .logo { margin-left: 0; }
   .time-remaining-for-sale { margin-right: 2rem; }
