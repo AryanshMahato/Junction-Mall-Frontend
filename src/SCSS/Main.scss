@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lilita+One|Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Lilita+One|Roboto&display=swap');
 
 $primary-color: #e74292;
 $primary-light: #eaf0f1;
@@ -64,7 +64,7 @@ $dark-light: #dae0e2;
 }
 
 .locate-us {
-	font-family: "Lilita One", cursive;
+	font-family: 'Lilita One', cursive;
 	font-size: 2rem;
 	background: $primary-blue;
 	display: flex;
@@ -131,7 +131,7 @@ $dark-light: #dae0e2;
 }
 
 .locate-us__mobile {
-	font-family: "Lilita One", cursive;
+	font-family: 'Lilita One', cursive;
 	font-size: 2rem;
 	background: $primary-blue;
 	display: flex;
@@ -167,6 +167,9 @@ $dark-light: #dae0e2;
 .shopping,
 .events,
 .entertainment {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
 	width: 50%;
 	background: $primary-dark;
@@ -174,7 +177,7 @@ $dark-light: #dae0e2;
 	padding: 0.5rem;
 	height: 3.5rem;
 	font-size: 1.5rem;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	cursor: pointer;
 }
 
