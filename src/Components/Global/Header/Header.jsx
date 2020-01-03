@@ -18,7 +18,7 @@ export default function Header() {
 				</div>
 			</div>
 			<div className='locate-us'>
-				<a href='#'>Locate Us</a>
+				<a href='#location'>Locate Us</a>
 			</div>
 		</div>
 	);

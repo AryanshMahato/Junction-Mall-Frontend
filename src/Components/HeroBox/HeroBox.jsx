@@ -12,7 +12,7 @@ export default function HeroBox() {
 			<div id='hero-box__right-arrow'>
 				<IoIosArrowForward />
 			</div>
-			<img src={Image1} alt='Hero-Image' />
+			<img src={Image1} alt='Hero' />
 		</div>
 	);
 }
