@@ -22,6 +22,7 @@ $dark-light: #dae0e2;
 	padding-bottom: 0.5rem;
 	position: fixed;
 	width: 100vw;
+	z-index: 100;
 
 	hr {
 		width: 100vw;
@@ -186,6 +187,28 @@ $dark-light: #dae0e2;
 	color: $primary-dark;
 }
 
+.offer-section {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	margin-top: 4rem;
+}
+
+.shopping-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2rem;
+	.shopping-one {
+		display: block;
+		height: 100%;
+	}
+}
+
+.shopping-content > * {
+	margin-top: 1rem;
+	width: 9rem;
+}
+
 // For Development Only
 .development {
 	height: 80px;
@@ -242,6 +265,14 @@ $dark-light: #dae0e2;
 	.entertainment {
 		width: 50%;
 	}
+
+	.shopping-content {
+		grid-column-gap: 20rem;
+	}
+
+	.shopping-content > * {
+		width: 20rem;
+	}
 }
 
 @media (min-width: 40rem) and (max-width: 60rem) {
@@ -259,5 +290,13 @@ $dark-light: #dae0e2;
 
 	.locate-us {
 		margin-right: 0;
+	}
+
+	.shopping-content {
+		grid-column-gap: 8rem;
+	}
+
+	.shopping-content > * {
+		width: 15rem;
 	}
 }
