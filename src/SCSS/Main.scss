@@ -198,15 +198,22 @@ $dark-light: #dae0e2;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 2rem;
-	.shopping-one {
-		display: block;
-		height: 100%;
-	}
 }
 
 .shopping-content > * {
 	margin-top: 1rem;
 	width: 9rem;
+}
+
+.food-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2rem;
+}
+
+.food-content > * {
+	margin-top: 1rem;
+	width: 8rem;
 }
 
 // For Development Only
@@ -273,6 +280,14 @@ $dark-light: #dae0e2;
 	.shopping-content > * {
 		width: 20rem;
 	}
+
+	.food-content {
+		grid-column-gap: 20rem;
+	}
+
+	.food-content > * {
+		width: 20rem;
+	}
 }
 
 @media (min-width: 40rem) and (max-width: 60rem) {
@@ -297,6 +312,14 @@ $dark-light: #dae0e2;
 	}
 
 	.shopping-content > * {
+		width: 15rem;
+	}
+
+	.food-content {
+		grid-column-gap: 8rem;
+	}
+
+	.food-content > * {
 		width: 15rem;
 	}
 }

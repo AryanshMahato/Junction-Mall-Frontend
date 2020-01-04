@@ -5,10 +5,22 @@ import TwoShopping from '../../../Images/Shopping/two.svg';
 import ThreeShopping from '../../../Images/Shopping/three.png';
 import FourShopping from '../../../Images/Shopping/four.jpg';
 
+import OneFood from '../../../Images/Food/one.jpg';
+import TwoFood from '../../../Images/Food/two.png';
+import ThreeFood from '../../../Images/Food/three.jpg';
+import FourFood from '../../../Images/Food/four.png';
+
 export default function OfferContent(props) {
 	const content = () => {
 		if (props.menuActive === 'food') {
-			return <div className='food-content'></div>;
+			return (
+				<div className='food-content'>
+					<img src={OneFood} className='food-one' alt='food-one' />
+					<img src={TwoFood} className='food-two' alt='food-two' />
+					<img src={ThreeFood} className='food-three' alt='food-three' />
+					<img src={FourFood} className='food-four' alt='food-four' />
+				</div>
+			);
 		}
 		if (props.menuActive === 'shopping') {
 			return (
