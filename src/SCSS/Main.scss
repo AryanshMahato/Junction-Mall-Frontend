@@ -28,7 +28,6 @@ $dark-light: #dae0e2;
 		color: $dark-light;
 		height: 1px;
 	}
-	z-index: 100;
 }
 
 .logo {
@@ -187,21 +186,6 @@ $dark-light: #dae0e2;
 	color: $primary-dark;
 }
 
-#offer-section {
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	margin-top: 3rem;
-}
-
-.offer-section__annotation {
-	font-size: 1.8rem;
-	font-family: 'Roboto', sans-serif;
-
-	span {
-		font-family: 'Lilita One', sans-serif;
-	}
-}
 // For Development Only
 .development {
 	height: 80px;
@@ -257,9 +241,6 @@ $dark-light: #dae0e2;
 	.events,
 	.entertainment {
 		width: 50%;
-	}
-	.offer-section__annotation {
-		font-size: 3rem;
 	}
 }
 
