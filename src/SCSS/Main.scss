@@ -142,6 +142,7 @@ $dark-light: #dae0e2;
 	position: fixed;
 	width: 100vw;
 	bottom: 0;
+	z-index: 1000;
 
 	a {
 		vertical-align: middle;
@@ -265,6 +266,86 @@ $dark-light: #dae0e2;
 	margin-top: 1rem;
 }
 
+.main-footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 5rem;
+	background: #000;
+	color: white;
+	width: 100%;
+}
+
+.main-footer__content {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	max-width: 800px;
+}
+
+#location {
+	height: 15rem;
+	width: 90vw;
+	max-width: 400px;
+	background: #fff;
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	margin: 1.5rem 0;
+	font-family: sans-serif;
+}
+
+.contacts {
+	display: flex;
+	flex-flow: column;
+}
+
+.email {
+	display: flex;
+	margin-bottom: 0.5rem;
+	flex-flow: row;
+	justify-content: center;
+	a {
+		text-decoration: none;
+		color: #fff;
+		font-size: 1.2rem;
+	}
+	span {
+		margin-right: 0.5rem;
+		align-self: flex-end;
+	}
+}
+
+.phone-number {
+	display: block;
+	text-align: center;
+	margin-bottom: 0.5rem;
+
+	span:first-of-type {
+		display: inline-block;
+		margin-right: 0.5rem;
+		transform: rotate(90deg);
+	}
+
+	.number {
+		position: relative;
+		top: -1.5px;
+	}
+}
+
+.contact-for-events {
+	margin: 1rem 0;
+	padding: 0.5rem;
+	font-size: 1.2rem;
+	width: 300px;
+	font-family: sans-serif;
+	background: $primary-light;
+	text-decoration: none;
+	border: none;
+	border-radius: 0.2rem;
+	cursor: pointer;
+}
 // For Development Only
 .development {
 	height: 80px;
@@ -372,6 +453,27 @@ $dark-light: #dae0e2;
 	.entertainment-content > * {
 		margin-top: 0;
 		align-self: center;
+	}
+
+	.main-footer {
+		align-items: center;
+	}
+
+	.main-footer__content {
+		flex-flow: row;
+	}
+
+	.contacts {
+		display: flex;
+		flex-flow: column;
+	}
+
+	#location {
+		margin-right: 100px;
+	}
+
+	.contact-for-events {
+		font-size: 1.3rem;
 	}
 }
 
