@@ -32,8 +32,6 @@ export default class App extends Component {
 				/>
 				<OfferSection menuActive={this.state.menuActive} />
 				<Footer />
-				{/* For Development Only */}
-				<div className='development'></div>
 			</div>
 		);
 	}

@@ -346,11 +346,6 @@ $dark-light: #dae0e2;
 	border-radius: 0.2rem;
 	cursor: pointer;
 }
-// For Development Only
-.development {
-	height: 80px;
-}
-
 @media (min-width: 40rem) {
 	.main-header {
 		flex-flow: row;

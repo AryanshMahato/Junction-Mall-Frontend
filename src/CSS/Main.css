@@ -97,8 +97,6 @@
 
 .contact-for-events { margin: 1rem 0; padding: 0.5rem; font-size: 1.2rem; width: 300px; font-family: sans-serif; background: #eaf0f1; text-decoration: none; border: none; border-radius: 0.2rem; cursor: pointer; }
 
-.development { height: 80px; }
-
 @media (min-width: 40rem) { .main-header { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-flow: row; flex-flow: row; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 1rem; }
   .main-header hr { display: none; }
   .logo { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; margin-bottom: 0; margin-left: 5rem; }
