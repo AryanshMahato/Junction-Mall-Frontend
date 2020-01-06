@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Food from './Food/Food';
 import Shopping from './Shopping/Shopping';
 

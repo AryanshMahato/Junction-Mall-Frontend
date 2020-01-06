@@ -198,10 +198,10 @@ $dark-light: #dae0e2;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 2rem;
+	align-items: center;
 }
 
 .shopping-content > * {
-	margin-top: 1rem;
 	width: 9rem;
 }
 
