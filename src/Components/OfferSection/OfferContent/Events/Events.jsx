@@ -11,9 +11,9 @@ export default function Events() {
 			<h1 className='event__annotation'>Events in our mall</h1>
 			<div className='event-content'>
 				<img src={one} alt='First' className='event-one' />
-				<img src={two} alt='First' className='event-two' />
-				<img src={three} alt='First' className='event-three' />
-				<img src={four} alt='First' className='event-four' />
+				<img src={two} alt='Second' className='event-two' />
+				<img src={three} alt='Third' className='event-three' />
+				<img src={four} alt='Fourth' className='event-four' />
 			</div>
 		</div>
 	);

@@ -61,11 +61,19 @@
 
 .event { width: 90vw; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: column; flex-flow: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.event__annotation { font-size: 2rem; font-family: 'Roboto', sans-serif; color: black; }
+.event__annotation { font-size: 2rem; font-family: 'Roboto', sans-serif; color: black; text-align: center; }
 
 .event-content { overflow: hidden; margin-top: 1rem; }
 
 .event-content > * { width: 100%; margin-top: 1rem; }
+
+.Entertainment { width: 90vw; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: column; flex-flow: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.entertainment__annotation { display: block; text-align: center; font-size: 2rem; font-family: 'Roboto', sans-serif; color: black; }
+
+.entertainment-content { overflow: hidden; margin-top: 1rem; }
+
+.entertainment-content > * { width: 100%; margin-top: 1rem; }
 
 .development { height: 80px; }
 
@@ -85,7 +93,10 @@
   .food-content > * { width: 20rem; }
   .event__annotation { font-size: 4rem; }
   .event-content { display: -ms-grid; display: grid; margin-top: 5rem; -ms-grid-columns: (40%)[2]; grid-template-columns: repeat(2, 40%); -webkit-column-gap: 10%; column-gap: 10%; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; row-gap: 2rem; }
-  .event-content > * { margin-top: 0; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; } }
+  .event-content > * { margin-top: 0; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
+  .entertainment__annotation { font-size: 4rem; }
+  .entertainment-content { display: -ms-grid; display: grid; margin-top: 5rem; -ms-grid-columns: (40%)[2]; grid-template-columns: repeat(2, 40%); -webkit-column-gap: 10%; column-gap: 10%; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; row-gap: 2rem; }
+  .entertainment-content > * { margin-top: 0; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; } }
 
 @media (min-width: 40rem) and (max-width: 60rem) { .logo { margin-left: 0; }
   .time-remaining-for-sale { margin-right: 2rem; }
@@ -95,4 +106,5 @@
   .shopping-content > * { width: 15rem; }
   .food-content { grid-column-gap: 8rem; }
   .food-content > * { width: 15rem; }
-  .event__annotation { font-size: 3rem; } }
+  .event__annotation { font-size: 3rem; }
+  .entertainment__annotation { font-size: 3rem; } }

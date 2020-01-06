@@ -3,6 +3,7 @@ import React from 'react';
 import Food from './Food/Food';
 import Shopping from './Shopping/Shopping';
 import Events from './Events/Events';
+import Entertainment from './Entertainment/Entertainment';
 
 export default function OfferContent(props) {
 	const content = () => {
@@ -16,7 +17,7 @@ export default function OfferContent(props) {
 			return <Events />;
 		}
 		if (props.menuActive === 'entertainment') {
-			return <div className='entertainment-content'></div>;
+			return <Entertainment />;
 		}
 	};
 
