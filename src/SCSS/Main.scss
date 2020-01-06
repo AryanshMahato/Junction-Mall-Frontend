@@ -216,6 +216,29 @@ $dark-light: #dae0e2;
 	width: 8rem;
 }
 
+.event {
+	width: 90vw;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.event__annotation {
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+
+.event-content {
+	overflow: hidden;
+	margin-top: 1rem;
+}
+
+.event-content > * {
+	width: 100%;
+	margin-top: 1rem;
+}
+
 // For Development Only
 .development {
 	height: 80px;
@@ -288,6 +311,24 @@ $dark-light: #dae0e2;
 	.food-content > * {
 		width: 20rem;
 	}
+
+	.event__annotation {
+		font-size: 4rem;
+	}
+
+	.event-content {
+		display: grid;
+		margin-top: 5rem;
+		grid-template-columns: repeat(2, 40%);
+		column-gap: 10%;
+		justify-content: center;
+		row-gap: 2rem;
+	}
+
+	.event-content > * {
+		margin-top: 0;
+		align-self: center;
+	}
 }
 
 @media (min-width: 40rem) and (max-width: 60rem) {
@@ -321,5 +362,9 @@ $dark-light: #dae0e2;
 
 	.food-content > * {
 		width: 15rem;
+	}
+
+	.event__annotation {
+		font-size: 3rem;
 	}
 }
